@@ -44,7 +44,7 @@ contract TokenArlos is ERC20, Ownable {
   
     constructor(address initialOwner) Ownable(initialOwner) ERC20("TokenArlos", "ARL") {
 
-      // Token Minting: Inside the constructor, _mint function from the ERC20 contract is called to mint an initial supply of 5,000,000 tokens to the initialOwner.
+      // Token Minting: Inside the constructor, _mint function from the ERC20 contract is called to mint an initial supply of 30,000 tokens to the initialOwner.
         _mint(initialOwner, 30000);
     }
 
